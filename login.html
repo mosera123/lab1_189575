@@ -2,23 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Login | RentEase</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Dream Rent</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="login-container">
-    <div class="login-box">
-      <h2>Welcome Back!</h2>
-      <p class="subtitle">Let’s get you in and renting</p>
-      <form>
-        <input type="text" placeholder="📧 Email" required />
-        <input type="password" placeholder="🔒 Password" required />
-        <button type="submit" class="btn-glow">Login</button>
-        <p class="alt-option">Not a member? <a href="#">Register now 🔗</a></p>
-      </form>
+
+  <!-- Navigation -->
+  <nav class="top-nav">
+    <div class="logo">Dream Rent</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="houses.html">Houses</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="login.html">Login</a>
     </div>
+  </nav>
+
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="#">
+      <input type="text" placeholder="Username or Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
   </div>
+
+  <footer>
+    &copy; 2025 Dream Rent Agency. All rights reserved.
+  </footer>
 </body>
 </html>

@@ -5,33 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>House Listings | Dreamrent Agency</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" ref="stylesheet">
-  </head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
 <body>
-  <aside class="sidebar" aria-label="Sidebar Navigation">
-    <h2>Menu</h2>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="houses.html">Houses</a></li>
-      <li><a href="login.html">Login</a></li>
-    </ul>
-  </aside>
-<main class='main'>
-  <header class="listings-header">
-    <h1>Available House For Rent</h1>
-    <p>Find your next dream home today  wwith verified listings across Kenya </p>
-</header>
-<section class="filters">
-  <input type="text" placehplder="Search by location..." class="search-bos" aria-label="Search loaction"/>
-  <select aria-label="filter by price">
-    <option value="">Filter by price</option>
-    <option value="low">Below Ksh 40000</option>
-    <option value="mid">Kshs 40000- Kshs 100000</option>
-    <option value="high">Above Kshs 100000</option>
-  </select>
-</section>
-<section class="house-listings">
+  <nav class="top-nav">
+    <div class="logo">Dream Rent</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="houses.html" class="active">Houses</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </div>
+  </nav>
+
+  <main class="main">
+    <header class="listings-header">
+      <h1>Available Houses For Rent</h1>
+      <p>Find your next dream home today with verified listings across Kenya.</p>
+    </header>
+
+    <section class="filters">
+      <input type="text" placeholder="Search by location..." class="search-box" aria-label="Search location"/>
+      <select aria-label="filter by price">
+        <option value="">Filter by price</option>
+        <option value="low">Below Ksh 40,000</option>
+        <option value="mid">Ksh 40,000 - Ksh 100,000</option>
+        <option value="high">Above Ksh 100,000</option>
+      </select>
+    </section>
+
+    <section class="house-listings">
       <article class="listing-card">
         <img src="images/house1.jpeg" alt="2BR Apartment Nairobi" />
         <div class="listing-info">
@@ -45,7 +48,7 @@
       </article>
 
       <article class="listing-card">
-        <img src="images/house2.jpeg" alt="1BR Bedsitter Nakuru" />
+        <img src="C:\lab2-189575\images\house2.jpeg" alt="1BR Bedsitter Nakuru" />
         <div class="listing-info">
           <h3>1BR Bedsitter – Nakuru Town</h3>
           <p><strong>Location:</strong> Section 58, Nakuru</p>
@@ -57,7 +60,7 @@
       </article>
 
       <article class="listing-card">
-        <img src="images/house3.jpeg" alt="3BR Beach Villa Mombasa" />
+        <img src="C:\lab2-189575\images\house3.jpeg" alt="3BR Beach Villa Mombasa" />
         <div class="listing-info">
           <h3>3BR Beach Villa – Mombasa</h3>
           <p><strong>Location:</strong> Nyali Beach</p>
@@ -68,7 +71,20 @@
         </div>
       </article>
     </section>
-   <section class="why-us">
+
+    <section class="image-gallery">
+      <h2>🏡 Featured House Views</h2>
+      <div class="gallery-grid">
+        <img src="C:\lab2-189575\images\image02.jpg" alt="Living Room">
+        <img src="C:\lab2-189575\images\image04.jpg" alt="Kitchen">
+        <img src="C:\lab2-189575\images\image03.jpg" alt="Bedroom">
+        
+        <img src="C:\lab2-189575\images\image01.jpg" alt="Balcony View">
+        
+      </div>
+    </section>
+
+    <section class="why-us">
       <h2>🏆 Why Rent With DreamRent?</h2>
       <ul>
         <li>✅ 100% Verified Listings</li>
@@ -77,6 +93,7 @@
         <li>✅ Tenant support & protection</li>
       </ul>
     </section>
+
     <section class="tips">
       <h2>📌 Tips Before Renting</h2>
       <ul>
@@ -95,7 +112,6 @@
       <a href="#">Next &#8594;</a>
     </nav>
 
-    
     <footer>
       <p>&copy; 2025 DreamRent Official Agency. All rights reserved.</p>
       <div class="socials">
@@ -105,14 +121,7 @@
       </div>
     </footer>
 
-   
     <button onclick="scrollToTop()" class="back-to-top" aria-label="Scroll to top">⬆</button>
-
   </main>
-
-  
-
-
-  
-
-
+</body>
+</html>
